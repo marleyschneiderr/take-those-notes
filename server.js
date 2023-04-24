@@ -10,7 +10,7 @@ var PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use("/public/assets", express.static(_dirname + "/public/assets"));
+app.use("/public/assets", express.static(__dirname + "/public/assets"));
 
 require("./routes/htmlRoutes/htmlRoutes.js")(app);
 require("./routes/apiRoutes/apiRoutes.js")(app);
