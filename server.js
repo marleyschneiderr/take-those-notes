@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use("/public/assets", express.static(__dirname + "/public/assets"));
 
-require("./routes/htmlRoutes/htmlRoutes.js")(app);
-require("./routes/apiRoutes/apiRoutes.js")(app);
+require("./routes/htmlRoutes.js")(app);
+require("./routes/apiRoutes.js")(app);
 
 // starting the server to listen and display
 app.listen(PORT, function () {
