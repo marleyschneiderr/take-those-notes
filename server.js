@@ -4,6 +4,9 @@ const express = require("express");
 const fs = require("fs");
 const htmlRoutes = require('./routes/htmlRoutes');
 
+// const api = require('./routes/apiRoutes.js')
+// app.use('/api', api)
+
 // Express app set up
 var app = express();
 // || is a fallback value in case process.env.PORT is not defined/is undefined, the fallback is 3001 in this case
