@@ -1,5 +1,5 @@
 const fs = require("fs");
-const router = express.Router() 
+const router = require('express').Router();
 // reads JSON file, reads content, returns a buffer
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
