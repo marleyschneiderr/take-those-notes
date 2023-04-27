@@ -1,18 +1,18 @@
 const fs = require("fs");
-// const router = express.Router() 
+const router = express.Router() 
 // reads JSON file, reads content, returns a buffer
 var data = JSON.parse(fs.readFileSync("./db/db.json", "utf8"));
 
-module.exports = function (app) {
-  app.get("/api/notes", (req, res) => {
+module.exports = function (router) {
+  router.get("/api/notes", (req, res) => {
     res.json(data);
   });
 
-  app.get("/api/notes/:id", (req, res) => {
+  router.get("/api/notes/:id", (req, res) => {
     res.json(data[Number(req.params.id)]);
   });
 
-  app.post("/api/notes", (req, res) => {
+  router.post("/api/notes", (req, res) => {
     const addNote = req.body;
     const differentId = data.length.toString();
     console.log(differentId);
@@ -26,7 +26,7 @@ module.exports = function (app) {
     res.json(data);
   });
 
-  app.delete("/api/notes/:id", (req, res) => {
+  router.delete("/api/notes/:id", (req, res) => {
     const entryId = req.params.id;
     let addId = 0;
     console.log(`Deleting note with id ${entryId}`);
