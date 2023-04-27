@@ -6,7 +6,7 @@ A user can create notes, save them to the application database, and view them by
 
 
 ## Screenshot of Live Application
-![alt-text](./images/.png)
+![alt-text](./images/notes.png)
 
 ## Table of Contents
 * [Installation](#installation)
