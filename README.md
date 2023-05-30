@@ -30,7 +30,7 @@ on your local browser to view the application. To access my deployed website, vi
 
 ## Contributors🔋
 Starter code provided by edX in partnership with the University of Washington, server.js file created by Marley Schneider
-- Thank you to askBCS for sorting out route complications and getting my save button to populate and save to the database.
+- Thank you to askBCS for sorting out route complications on my application and debugging my code to allow my save button to populate and submit to the database.
 
 ## License🚨
 
