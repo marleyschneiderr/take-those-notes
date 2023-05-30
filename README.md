@@ -2,7 +2,7 @@
 Note Taker application that can be used to write and save notes.
 
 ## Description📓
-A user can create notes, save them to the application database, and view them by clicking on the saved note icon on the left side of the screen. Click the + button and start typing to add a new note. After you've finished writing your note, click the save icon in the upper right corner to save it. The server.js file employs Express.js to GET, POST, and DELETE the JSON notes stored on the server.
+A user can create notes, save them to the application database, view them by clicking on the saved note icon on the left side of the screen, `AND delete notes they have previously created`. Click the + button and start typing to add a new note. After you've finished writing your note, click the save icon in the upper right corner to save it. The server.js file employs Express.js to GET, POST, and DELETE the JSON notes stored on the server.
 
 ## Live Application Link
 
@@ -22,7 +22,7 @@ A user can create notes, save them to the application database, and view them by
 To install this project, clone this repository on Github and open it in your personal IDE. Run npm i express in the terminal.
 
 ## Dependencies👍
-Express.js, JSON, node.js
+`Express.js`, `JSON`, `node.js`
 
 ## Usage💡
 In your IDE termianl, open the command line and type either 'node server.js' or 'npm start' to run the server. Once started, open 'http://localhost:3001' 
