@@ -5,7 +5,7 @@ Note Taker application that can be used to write and save notes.
 A user can create notes, save them to the application database, view them by clicking on the saved note icon on the left side of the screen, `AND delete notes they have previously created`. Click the + button and start typing to add a new note. After you've finished writing your note, click the save icon in the upper right corner to save it. The server.js file employs Express.js to GET, POST, and DELETE the JSON notes stored on the server.
 
 ## Live Application Link
-
+https://take-those-notes.herokuapp.com/
 
 ## Screenshot of Live Application📂
 ![alt-text](./images/notes.png)
@@ -26,7 +26,7 @@ To install this project, clone this repository on Github and open it in your per
 
 ## Usage💡
 In your IDE termianl, open the command line and type either 'node server.js' or 'npm start' to run the server. Once started, open 'http://localhost:3001' 
-on your local browser to view the application. To access my deployed website, visit: 
+on your local browser to view the application. To access my deployed website, visit: https://take-those-notes.herokuapp.com/
 
 ## Contributors🔋
 Starter code provided by edX in partnership with the University of Washington, server.js file created by Marley Schneider
